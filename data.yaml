@@ -1,0 +1,13 @@
+train: D:/python/kumaraguru/train/images
+val: D:/python/kumaraguru/valid/images
+test: D:/python/kumaraguru/test/images
+
+nc: 10
+names: ['Crane', 'Crow', 'Egret', 'Kingfisher', 'Myna', 'Peacock', 'Pitta', 'Rosefinch', 'Tailorbird', 'Wagtail']
+
+roboflow:
+  workspace: rishvandhans
+  project: kumaraguru-bird-classification
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rishvandhans/kumaraguru-bird-classification/dataset/4
